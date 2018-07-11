@@ -1,0 +1,32 @@
+.footer, .tab {   
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    }
+    
+    
+    
+.header {
+    background-color:lightblue;
+    color:black;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    display: flex;
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+}
+
+.general {
+    border:1px solid white;   
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
