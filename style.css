@@ -2,31 +2,52 @@
     display: flex;
     justify-content: space-around;
     background-color:black;
-    color:white;
+    color:#95f442;
     font-size:20px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
     }
     
-    
-    
 .header {
-    background-color:lightblue;
-    color:black;
-    font-size:50px;
-    margin-top:5px;
-    margin-bottom:5px;
-    display: flex;
-    font-family: 'Lobster', cursive;
-    justify-content: center;
+    top: 0;
+    color: white;
+    color: #e0eff2;
+    font: italic bold 70px Georgia, Serif;
+    text-shadow: -4px 9px 0 grey, -14px 8px 0 #0a0e27;
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=863ffeea823f0ffb0885fe1a5e77e645&auto=format&fit=crop&w=750&q=80") ;
 }
 
 .general {
     border:1px solid white;   
-    align-items: center;
+    display: flex;
 }
 
 .contact {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color: #f79f33;
 }
 
+.generalpics {
+    width: 50%;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+#facts {
+   text-align: justify;
+   font-size: 20px;
+   color: grey;
+}
+
+#signature {
+   align-items: flex-end;
+}
